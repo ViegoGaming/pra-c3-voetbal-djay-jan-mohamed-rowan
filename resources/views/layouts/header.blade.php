@@ -5,6 +5,7 @@
         <img src="{{ asset('images/logo.png') }}" alt="Logo" class="logo-img">
       </a>
     </div>
+
     <ul class="nav-links">
       <li><a href="{{ url('/') }}">Home</a></li>
       <li><a href="{{ url('/contact') }}">Contact</a></li>
