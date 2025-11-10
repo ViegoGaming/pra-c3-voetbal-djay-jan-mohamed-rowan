@@ -1,12 +1,6 @@
-<!DOCTYPE html>
-<html lang="nl">
-<head>
-  <meta charset="UTF-8">
-  <title>Home</title>
-  <link rel="stylesheet" href="{{ asset('style.css') }}">
-</head>
-<body>
-  @include('header')
+<x-base-layout>
+
+  
 
   <main class="homepage">
     <section class="hero">
@@ -20,5 +14,6 @@
       <p>moet nog ingevuld worden met email enzv</p>
     </section>
   </main>
-</body>
-</html>
+
+
+</x-base-layout>

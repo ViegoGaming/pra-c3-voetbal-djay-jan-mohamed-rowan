@@ -14,11 +14,13 @@
             color: black;
         }
     </style>
+    <link rel="stylesheet" href="{{ asset('style.css') }}">
+
 </head>
 
 <body>
     <header>
-        
+        @include('header')
     </header>
 
     <main>
@@ -26,7 +28,6 @@
     </main>
 
     <footer>
-
     </footer>
 </body>
 

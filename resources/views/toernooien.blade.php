@@ -1,13 +1,4 @@
-<!DOCTYPE html>
-<html lang="nl">
-<head>
-  <meta charset="UTF-8">
-  <title>Toernooien</title>
-  <link rel="stylesheet" href="{{ asset('style.css') }}">
-</head>
-<body>
-  @include('header')
-
+<x-base-layout>
   <main class="toernooien-page">
     <h1>Toernooien</h1>
 
@@ -55,5 +46,4 @@
       </table>
     </section>
   </main>
-</body>
-</html>
+</x-base-layout>
