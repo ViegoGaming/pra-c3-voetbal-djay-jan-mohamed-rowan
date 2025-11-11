@@ -326,3 +326,55 @@ h1 {
 .accountForm button[type="submit"]:hover {
   background-color: #3e6a3e;
 }
+
+.container{
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.loginForm{
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 100px 20px;
+  border: #222 1px solid;
+  border-radius: 10px;
+  margin: 100px auto !important;
+}
+.loginForm label {
+  text-align: left;
+  margin-bottom: 5px;
+  font-weight: 600;
+  color: #333;
+}
+
+.loginForm input {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.loginForm input:focus {
+  outline: none;
+  border-color: #548350;
+
+}
+
+.loginForm button[type="submit"] {
+  background-color: #548350;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+.loginForm button[type="submit"]:hover {
+  background-color: #3e6a3e;
+}

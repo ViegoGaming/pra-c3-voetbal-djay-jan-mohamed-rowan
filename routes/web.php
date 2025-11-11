@@ -17,3 +17,8 @@ Route::get('/inschrijven', function () {
 Route::get('/admin', function () {
     return view('admin');
 });
+
+
+Route::get('/login', function () {
+    return view('login');
+});
