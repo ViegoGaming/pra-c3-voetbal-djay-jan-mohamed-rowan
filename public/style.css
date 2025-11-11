@@ -1,7 +1,7 @@
 /* Navbar */
 
 *{
-    scrollbar-width: none;
+    scrollbar-width: thin;
 }
 
 .navbar {
@@ -46,9 +46,8 @@
 
 .nav-links a:hover {
   color: #3e6a3e;
-  background: #f8f9fa;
   transition: 0.5s;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 
