@@ -21,3 +21,7 @@ Route::get('/admin', function () {
 Route::get('/spelregels', function () {
     return view('spelregels');
 });
+
+Route::get('/login', function () {
+    return view('login');
+});
