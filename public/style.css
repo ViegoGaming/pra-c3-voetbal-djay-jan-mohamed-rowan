@@ -226,6 +226,7 @@ h1 {
   margin-bottom: 40px;
 }
 
+<<<<<<< HEAD
 .footer {
     background-color: #f8f9fa;
     padding-top: 20px;
@@ -306,6 +307,113 @@ h1 {
 
 
 
+=======
+
+/* Inschrijf formulier */
+
+.body {
+    font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f6f9;
+    margin: 0;
+    padding: 0;
+}
+
+/* ---------- Wrapper ---------- */
+.signupform-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 2rem;
+}
+
+/* ---------- Titel ---------- */
+.ins {
+    font-size: 2.2rem;
+    color: #222;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+/* ---------- Formulier ---------- */
+.signupform {
+    background-color: #fff;
+    padding: 2.5rem 2rem;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+/* ---------- Formulier groepen ---------- */
+.signupform-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+/* ---------- Labels ---------- */
+.signupform-group label {
+    font-weight: 600;
+    color: #333;
+}
+
+/* ---------- Inputs & Select ---------- */
+.signupform-control {
+    width: 100%;
+    padding: 0.65rem 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+    transition: all 0.25s ease;
+    background-color: #fafafa;
+}
+
+.signupform-control:focus {
+    border-color: #007bff;
+    background-color: #fff;
+    box-shadow: 0 0 6px rgba(0, 123, 255, 0.25);
+    outline: none;
+}
+
+/* ---------- Knop ---------- */
+.signupform-btn {
+    background-color: #548350;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 0.75rem;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.signupform-btn:hover {
+    background-color: #2f512f;
+}
+
+/* ---------- Extra marge ---------- */
+.mt-3 {
+    margin-top: 1.5rem;
+}
+
+/* ---------- Responsief ---------- */
+@media (max-width: 480px) {
+    .ins {
+        font-size: 1.8rem;
+    }
+
+    .signupform {
+        padding: 2rem 1.2rem;
+    }
+}
+>>>>>>> upstream/main
 .adminPage {
   padding: 60px 20px;
   /* background-color: #f8f9fa; */
