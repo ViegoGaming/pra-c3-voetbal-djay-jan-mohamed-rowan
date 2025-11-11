@@ -1,4 +1,9 @@
 /* Navbar */
+
+*{
+    scrollbar-width: none;
+}
+
 .navbar {
   background-color: #ffffff;
   padding: 16px 32px;
@@ -24,12 +29,29 @@
   padding: 0;
 }
 
+.nav-links a:hover {
+  color: #3e6a3e;
+  background: #f8f9fa;
+  transition: 0.5s;
+  font-size: 24px;
+}
+
 .nav-links a {
+  transition: 0.5s;
   color: #333;
   text-decoration: none;
   font-weight: 500;
   font-size: 1rem;
 }
+
+.nav-links a:hover {
+  color: #3e6a3e;
+  background: #f8f9fa;
+  transition: 0.5s;
+  font-size: 18px;
+}
+
+
 
 /* Hero section */
 .hero {
@@ -207,7 +229,7 @@ h1 {
 
 .footer {
     background-color: #f8f9fa;
-    padding: 60px 20px;
+    padding-top: 20px;
     font-family: 'Poppins', sans-serif;
     position: relative;
     width: 100%;
